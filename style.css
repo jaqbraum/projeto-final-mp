@@ -1,0 +1,64 @@
+body, nav, main{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.artista_foto{
+    width: 125px;
+    border-radius: 85px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.titulo_dois{
+    font-size: 150px;
+    color:#49111C;
+    font-family: 'New Amsterdam', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: column-reverse;
+}
+
+.menu ul li a{
+    color:#5B9279;
+    text-decoration: none;
+}
+
+
+.rodape{
+    background-color:rgb(247, 241, 241);
+    padding: 2px;
+    color:#0A0908;
+    font-weight: bold;
+}
+
+.rodape_texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto_principal{
+    width: 700px;
+    margin-top: 50px;   
+
+}
+
+.principal{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
